@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:text="Pratiksha"
+        android:layout_width="wrap_content"
+        android:id="@+id/txtName"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Pune"
+        android:layout_below="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:id="@+id/txtAddress"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="9876543212"
+        android:layout_below="@+id/txtAddress"
+        android:layout_width="wrap_content"
+        android:id="@+id/txtPhone"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Computer"
+        android:layout_below="@+id/txtPhone"
+        android:layout_width="wrap_content"
+        android:id="@+id/txtBranch"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Engg"
+        android:layout_below="@+id/txtBranch"
+        android:layout_width="wrap_content"
+        android:id="@+id/txtCourse"
+        android:layout_height="wrap_content" />
+
+
+    <ImageView
+        android:id="@+id/imgDelete"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/txtName"
+        android:layout_marginEnd="18dp"
+        android:src="@drawable/ic_delete"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="18dp" />
+
+
+</RelativeLayout>
